@@ -18,9 +18,13 @@ const plugins = [
   {
     resolve: 'gatsby-plugin-web-font-loader',
     options: {
-      google: {
-        families: ['Cabin', 'Open Sans'],
+      custom: {
+        families: ['seidoRound'],
+        urls: ['/font/font.css'],
       },
+      // google: {
+      //   families: ['Cabin', 'Open Sans'],
+      // },
     },
   },
   {
