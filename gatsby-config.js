@@ -2,7 +2,9 @@ const contentful = require('contentful');
 const manifestConfig = require('./manifest-config');
 require('dotenv').config();
 
-const { ACCESS_TOKEN, SPACE_ID, ANALYTICS_ID, DETERMINISTIC } = process.env;
+const { ANALYTICS_ID, DETERMINISTIC } = process.env;
+const SPACE_ID = '798y9fwy9gi4';
+const ACCESS_TOKEN = 'G2hF7iSEIM_V6at2bQuQxrndkmwxP8I5_s5iutA0WX8';
 
 const client = contentful.createClient({
   space: SPACE_ID,
