@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Landing from '../sections/Landing';
 import About from '../sections/About';
+import Personal from '../sections/Personal';
 import Projects from '../sections/Projects';
 import Writing from '../sections/Writing';
 import Header from '../components/Header';
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <Header />
     <Landing />
     <About />
+    <Personal />
     <Projects />
     <Writing />
     <Footer />
