@@ -9,7 +9,7 @@ import MouseIcon from '../components/MouseIcon';
 import Triangle from '../components/Triangle';
 
 const Background = () => (
-  <div>
+  <div style={{backgroundColor: '#FCF4E2'}}>
     <Triangle
       color="backgroundDark"
       height={['35vh', '80vh']}
@@ -76,7 +76,7 @@ const LandingPage = () => (
               fontSize={[5, 6, 8]}
               mb={[3, 4, 5]}
             >
-              {`Hello, I'm ${name}!`}
+              {` ${name}`}
             </Heading>
 
             <Heading
