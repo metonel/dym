@@ -59,12 +59,13 @@ const Header = () => (
                 }}
               />
             );
+            const names = {'About': 'Cine Suntem', 'Personal': 'Mind your Heart', 'Projects': 'Mind your Business', 'Writing': 'Servicii si Certificari', 'Writing2': 'Blog'}
             const navLinks = links.map(({ name, value }) => (
               <RouteLink
                 key={name}
                 onClick={value.onClick}
                 selected={value.selected}
-                name={name}
+                name={names[name]}
               />
             ));
 
